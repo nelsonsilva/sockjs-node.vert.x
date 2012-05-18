@@ -1,0 +1,13 @@
+{
+  "name": "sockjs-node.vert.x",
+  "version": "0.1.0",
+  "author": "Nelson Silva <nelson.silva@inevo.pt>",
+  "main": "index",
+  "private": true,
+  "dependencies" : {
+    "node.vert.x": "git://github.com/nelsonsilva/node.vert.x.git"
+  },
+  "devDependencies" : {
+    "coffee-script": "> 1.1.0"
+  }
+}
