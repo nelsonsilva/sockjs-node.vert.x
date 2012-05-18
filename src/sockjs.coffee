@@ -35,7 +35,6 @@ class Server extends EventEmitter
 
   installHandlers: (http_server, handler_options) ->
     @httpServer = http_server.vertxServer # get the vertxHttpServer
-    console.log "HTTP Server = #{http_server}"
     @sjsServer = new vertx.createSockJSServer(@httpServer)
 
     # overwrite options
